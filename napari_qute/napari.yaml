@@ -1,0 +1,11 @@
+name: napari-qute
+contributions:
+  commands:
+    - id: napari-qute.say_hi
+      title: Say hello, world!
+      python_name: napari_qute:show_hello_message
+  widgets:
+    - command: napari-qute.say_hi  # note, same as command.id above
+      display_name: Hello World
+      autogenerate: true
+
